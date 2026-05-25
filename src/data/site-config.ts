@@ -82,7 +82,7 @@ const siteConfig: SiteConfig = {
     subscribe: {
         enabled: true,
         title: 'for gurleens thoughts.',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        text: 'one update per week. All the latest posts directly in your inbox.',
         form: {
             action: '#'
         }

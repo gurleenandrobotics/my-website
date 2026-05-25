@@ -3,13 +3,13 @@ import hero from '../assets/images/hero.jpeg';
 import type { SiteConfig } from '../types';
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://gurleenbatra.netlify.app',
     avatar: {
         src: avatar,
         alt: 'Gurleen Batra'
     },
-    title: 'Gurleen Batra',
-    subtitle: 'my home on the internet (besides reddit ofc)',
+    title: 'Hey welcome to my home on the internet (besides reddit ofc)',
+    subtitle: 'amalgation of my personal exploration of AI, automation and a professional display of my technical projects and career milestones',
     description: 'Discover thoughts on AI, automation, technical projects and everything I want to share',
     image: {
         src: '/dante-preview.jpg',

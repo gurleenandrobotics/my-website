@@ -66,22 +66,22 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence.\nMy approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products.\nI have a profound appreciation for top-notch software, visual design, and the principles of product-led growth.\n\nFeel free to explore some of my coding endeavors on [GitHub](https://github.com/JustGoodUI/dante-astro-theme) or follow me on [Twitter/X](https://twitter.com/justgoodui).",
+        title: 'Gurleen Batra',
+        text: "I'm **Gurleen Batra**, a computer engineering student at Purdue University, dedicating my life to automation.\nI am committed to not only technically developing the most needed technologies but also addressing the economic, philosophical and sociological aspects of these changes.",
         image: {
             src: hero,
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'beautiful photo of gurleen batra in a black saree'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'I say hi back. Get in touch.',
                 href: '/contact'
             }
         ]
     },
     subscribe: {
         enabled: true,
-        title: 'Subscribe to Dante Newsletter',
+        title: 'for gurleens thoughts.',
         text: 'One update per week. All the latest posts directly in your inbox.',
         form: {
             action: '#'

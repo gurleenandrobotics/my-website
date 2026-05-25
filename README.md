@@ -1,4 +1,6 @@
 # This is a guide on navigating Gurleen Batra's personal website. 
+https://gurleenbatra.netlify.app/
+
 
 
 ## Theme Features:

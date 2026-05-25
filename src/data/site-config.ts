@@ -6,11 +6,11 @@ const siteConfig: SiteConfig = {
     website: 'https://example.com',
     avatar: {
         src: avatar,
-        alt: 'Ethan Donovan'
+        alt: 'Gurleen Batra'
     },
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Gurleen Batra',
+    subtitle: 'my home on the internet (besides reddit ofc)',
+    description: 'Discover thoughts on AI, automation, technical projects and everything I want to share',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -25,11 +25,11 @@ const siteConfig: SiteConfig = {
             href: '/projects'
         },
         {
-            text: 'Blog',
+            text: 'Thoughts',
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Women in STEM',
             href: '/tags'
         }
     ],
@@ -58,7 +58,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://www.instagram.com/gurleenkbatra/'
         },
         {
             text: 'X/Twitter',

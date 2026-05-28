@@ -10,7 +10,7 @@ const siteConfig: SiteConfig = {
     },
     title: 'Hey welcome to my home on the internet (besides reddit ofc)',
     subtitle: 'amalgation of my personal exploration of AI, automation and a professional display of my technical projects and career milestones',
-    description: 'Discover thoughts on AI, automation, technical projects and everything I want to share',
+    description: 'Gurleen Batra',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'

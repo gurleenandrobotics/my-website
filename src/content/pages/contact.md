@@ -2,7 +2,7 @@
 title: I say hi back.
 seo:
   title: Contact
-  description: Prefer to get in touch through email.
+  description: Gurleen Batra
 ---
 
 Thank you for reaching out! Got a question, an opportunity, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:

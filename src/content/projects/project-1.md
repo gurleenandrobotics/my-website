@@ -1,6 +1,7 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
+title: 'Electronic Engineering Lead'
+subtitle: 'Piano Hand: Autonomous Robotics Club'
+description: 
 publishDate: 'Jan 02 2024'
 seo:
   image:
@@ -13,11 +14,10 @@ seo:
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
-
+This project aims to build a robotic hand which can play the piano wirelessly by reading from a datasheet. It aims to 
 ## Objectives
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
+1. Build a robotic hand which can play the piano wirelessly by reading from a datasheet. A wall plug in may be required to ensure long duration play. 
 2. Utilize gamification elements to make sustainable living fun and interactive.
 3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
 

@@ -9,7 +9,7 @@ const siteConfig: SiteConfig = {
         alt: 'Gurleen Batra'
     },
     title: 'Hey welcome to my home on the internet (besides reddit ofc)',
-    subtitle: 'amalgation of my personal exploration of AI, automation and a professional display of my technical projects and career milestones',
+    subtitle: 'Computer Engineering @ Purdue · Embedded Systems · Robotics · PCB Design · ECE Merit Scholar',
     description: 'Gurleen Batra',
     image: {
         src: '/dante-preview.jpg',
@@ -43,39 +43,39 @@ const siteConfig: SiteConfig = {
             href: '/contact'
         },
         {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Projects',
+            href: '/projects'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/gurleenbatra/'
         },
         {
             text: 'Instagram',
             href: 'https://www.instagram.com/gurleenkbatra/'
         },
         {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'GitHub',
+            href: 'https://github.com/'
         }
     ],
     hero: {
         title: 'Gurleen Batra',
-        text: "I'm **Gurleen Batra**, a computer engineering student at Purdue University, dedicating my life to automation.\nI am committed to not only technically developing the most needed technologies but also addressing the economic, philosophical and sociological aspects of these changes.",
+        text: "I'm **Gurleen Batra**, a Computer Engineering student at Purdue University specializing in **robotics, embedded systems, and PCB design**.\n\nI build hardware that moves and firmware that runs — from autonomous robotic hands and production GNSS firmware to custom multi-layer PCBs and Hardware-in-the-Loop test benches. Currently: Electronics Lead @ Autonomous Robotics Club · Undergraduate Researcher @ SoCET · ECE Merit Scholar.",
         image: {
             src: hero,
             alt: 'beautiful photo of gurleen batra in a black saree'
         },
         actions: [
             {
-                text: 'I say hi back. Get in touch.',
+                text: 'Get in touch →',
                 href: '/contact'
+            },
+            {
+                text: 'View Projects →',
+                href: '/projects'
             }
         ]
     },

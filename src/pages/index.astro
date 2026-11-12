@@ -4,6 +4,7 @@ import Button from '../components/Button.astro';
 import Hero from '../components/Hero.astro';
 import PostPreview from '../components/PostPreview.astro';
 import ProjectPreview from '../components/ProjectPreview.astro';
+import TechStack from '../components/TechStack.astro';
 import siteConfig from '../data/site-config';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { sortItemsByDateDesc } from '../utils/data-utils';
@@ -20,7 +21,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
     {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 font-serif text-xl italic sm:mb-16 sm:text-2xl">Projects</h2>
+                <h2 class="mb-12 font-serif text-xl italic sm:mb-16 sm:text-2xl">Featured Projects</h2>
                 {featuredProjects.map((project) => (
                     <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
@@ -30,6 +31,7 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
             </div>
         )
     }
+    <TechStack />
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
@@ -44,3 +46,4 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
         )
     }
 </BaseLayout>
+

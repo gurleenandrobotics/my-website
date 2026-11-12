@@ -1,0 +1,135 @@
+---
+// TechStack.astro — animated skill badges + experience timeline
+---
+
+<section class="mb-16 sm:mb-24">
+    <h2 class="mb-8 font-serif text-xl italic sm:mb-12 sm:text-2xl">Technical Skills</h2>
+
+    <div class="space-y-6">
+        <!-- Programming -->
+        <div>
+            <p class="mb-3 text-xs uppercase tracking-widest opacity-60">Programming</p>
+            <div class="flex flex-wrap gap-2">
+                {['Python', 'C', 'C++', 'MATLAB', 'MicroPython', 'JavaScript', 'HTML/CSS'].map((skill) => (
+                    <span class="skill-badge">{skill}</span>
+                ))}
+            </div>
+        </div>
+
+        <!-- Hardware -->
+        <div>
+            <p class="mb-3 text-xs uppercase tracking-widest opacity-60">Hardware & Microcontrollers</p>
+            <div class="flex flex-wrap gap-2">
+                {['ESP32', 'STM32', 'FPGA', 'Verilog', 'Raspberry Pi', 'Sensors', 'Motors'].map((skill) => (
+                    <span class="skill-badge">{skill}</span>
+                ))}
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div>
+            <p class="mb-3 text-xs uppercase tracking-widest opacity-60">Tools & Frameworks</p>
+            <div class="flex flex-wrap gap-2">
+                {['KiCAD', 'Altium Designer', 'LTSpice', 'TensorFlow', 'Fusion 360', 'MongoDB', 'ROS2'].map((skill) => (
+                    <span class="skill-badge">{skill}</span>
+                ))}
+            </div>
+        </div>
+
+        <!-- Other -->
+        <div>
+            <p class="mb-3 text-xs uppercase tracking-widest opacity-60">Other</p>
+            <div class="flex flex-wrap gap-2">
+                {['Linux', 'Git', 'Docker', 'API Integration', 'PLC Programming'].map((skill) => (
+                    <span class="skill-badge">{skill}</span>
+                ))}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mb-16 sm:mb-24">
+    <h2 class="mb-8 font-serif text-xl italic sm:mb-12 sm:text-2xl">Experience</h2>
+
+    <div class="space-y-8">
+        <!-- Wavelogix -->
+        <div class="experience-card group">
+            <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <h3 class="font-serif text-lg font-medium leading-tight">Embedded Systems Intern</h3>
+                <span class="shrink-0 text-sm opacity-60">May – Jul 2026</span>
+            </div>
+            <p class="mt-0.5 text-sm font-medium opacity-70">Wavelogix, Inc. · West Lafayette, IN</p>
+            <ul class="mt-3 space-y-1.5 text-sm leading-relaxed">
+                <li>→ Deployed production C GNSS firmware on Quectel 4G modules using an FSM; maintained sub-2.0 HDOP</li>
+                <li>→ Built automated HIL test bench (Python, RPi, Nordic PPK2) for firmware validation & power profiling</li>
+                <li>→ Resolved STM32 telemetry bug + wrote unit tests; built full-stack Python GUI for manufacturing workflows</li>
+            </ul>
+        </div>
+
+        <!-- SoCET -->
+        <div class="experience-card group">
+            <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <h3 class="font-serif text-lg font-medium leading-tight">Undergraduate Researcher</h3>
+                <span class="shrink-0 text-sm opacity-60">Aug 2026 – Present</span>
+            </div>
+            <p class="mt-0.5 text-sm font-medium opacity-70">SoCET Design Flow — Clock Optimization · Purdue University</p>
+            <ul class="mt-3 space-y-1.5 text-sm leading-relaxed">
+                <li>→ H-tree-based global clock distribution for the AFTx08 SoC in Synopsys Fusion Compiler (Tcl)</li>
+                <li>→ Configured clock buffers and routing to minimize skew in multi-source Clock Tree Synthesis (CTS)</li>
+            </ul>
+        </div>
+
+        <!-- ARC -->
+        <div class="experience-card group">
+            <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <h3 class="font-serif text-lg font-medium leading-tight">Electronic Engineering Lead</h3>
+                <span class="shrink-0 text-sm opacity-60">Aug 2024 – Present</span>
+            </div>
+            <p class="mt-0.5 text-sm font-medium opacity-70">Autonomous Robotics Club · Purdue University</p>
+            <ul class="mt-3 space-y-1.5 text-sm leading-relaxed">
+                <li>→ Built piano-playing robotic hand; PID finger control with &lt;10% position error</li>
+                <li>→ Designed multi-layer PCB (KiCAD), buck converter, PMOS switch, and BLE wireless control</li>
+                <li>→ Migrating architecture from ESP32/MicroPython to STM32 for v2</li>
+            </ul>
+        </div>
+
+        <!-- Humanoid -->
+        <div class="experience-card group">
+            <div class="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
+                <h3 class="font-serif text-lg font-medium leading-tight">Electrical Engineer</h3>
+                <span class="shrink-0 text-sm opacity-60">Jan 2025 – Present</span>
+            </div>
+            <p class="mt-0.5 text-sm font-medium opacity-70">Humanoid Robotics Club · Purdue University</p>
+            <ul class="mt-3 space-y-1.5 text-sm leading-relaxed">
+                <li>→ Led PCB design for the full-leg actuation system (Altium Designer)</li>
+                <li>→ Hardware testing & validation using proprietary Unitree software; sensor integration</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<style>
+    .skill-badge {
+        display: inline-block;
+        padding: 0.25rem 0.65rem;
+        border: 1px dashed var(--border-main);
+        border-radius: 9999px;
+        font-size: 0.8rem;
+        font-family: var(--font-sans);
+        transition: background-color 0.15s ease, border-style 0.15s ease;
+        cursor: default;
+    }
+    .skill-badge:hover {
+        border-style: solid;
+        background-color: var(--bg-muted);
+    }
+    .experience-card {
+        padding: 1rem 1.25rem;
+        border-left: 2px dashed var(--border-main);
+        transition: border-style 0.15s ease, padding-left 0.15s ease;
+    }
+    .experience-card:hover {
+        border-style: solid;
+        padding-left: 1.5rem;
+    }
+</style>

@@ -1,61 +1,39 @@
 ---
-title: FitQuest - AR Fitness Adventure Game
-description: This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
-publishDate: 'Dec 28 2023'
+title: 'Analog Audio Equalizer — Hardware Design'
+description: 'Designed and built a fully analog audio equalizer using bass, treble, and band-pass op-amp filter stages, summing amplifier, and crossover network for speaker output.'
+publishDate: 'Jan 01 2025'
 seo:
   image:
     src: '../../assets/images/project-6.jpg'
+    alt: Analog audio equalizer hardware project
 ---
 
-![Project preview](../../assets/images/project-6.jpg)
+![Analog audio equalizer](../../assets/images/project-6.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Overview
 
-**Project Overview:**
-FitQuest is an augmented reality (AR) fitness adventure game that revolutionizes traditional workout routines by combining physical exercise with immersive gameplay. This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
+A from-scratch **analog audio equalizer** designed and physically built in 2025. The project demonstrates hands-on circuit design skills — from filter theory to soldering a working audio system.
 
-## Objectives
+## Circuit Architecture
 
-1. Develop a fitness app that leverages augmented reality to make workouts more enjoyable and interactive.
-2. Integrate real-world locations and landmarks into the game, turning everyday environments into exciting adventure settings.
-3. Motivate users to stay active and maintain a consistent fitness routine by blending physical activity with a captivating storyline.
+The equalizer is split into three main signal-processing stages:
 
-## Features
+### 1. Frequency-Band Filters
+- **Bass filter:** Low-pass op-amp filter to isolate low-frequency content.
+- **Treble filter:** High-pass op-amp filter for high-frequency content.
+- **Band-pass filter:** Mid-range filter combining high-pass and low-pass stages.
 
-1. **Augmented Reality Workouts:**
+### 2. Op-Amp Summing & Amplification
+- Each band feeds into a **summing amplifier** that blends the three EQ channels with adjustable gain per band.
+- Final amplification stage drives enough power for speaker output.
 
-- FitQuest utilizes AR technology to overlay game elements onto the real-world environment, creating an immersive and dynamic workout experience.
-- Users engage in exercises that align with the game's storyline while interacting with virtual elements superimposed on their surroundings.
+### 3. Signal Reconstruction & Crossover Network
+- Reconstructed signal is passed through a **crossover network** to route frequency bands to appropriate speaker drivers (woofer / tweeter).
 
-2. **Interactive Storyline and Challenges:**
+## Tools & Skills Demonstrated
 
-- The app features an adventure-driven storyline where users embark on quests and missions to complete fitness challenges.
-- Challenges include cardio exercises, strength training, and flexibility workouts, seamlessly integrated into the game's narrative.
+`Op-Amp Circuit Design` · `Filter Theory (Butterworth)` · `LTSpice Simulation` · `PCB/Protoboard Assembly` · `Signal Analysis` · `Oscilloscope Debugging`
 
-3. **Real-World Landmarks Integration:**
+## Key Takeaway
 
-- FitQuest incorporates real-world landmarks and locations as key elements in the game, turning parks, streets, and other environments into virtual fitness arenas.
-- Users explore these locations while completing fitness challenges and unlocking new levels.
-
-4. **Multiplayer Mode and Team Challenges:**
-
-- Users can connect with friends or join teams to participate in multiplayer challenges.
-- Team-based missions encourage collaboration and friendly competition, enhancing the social aspect of fitness.
-
-5. **Fitness Tracking and Progress Monitoring:**
-
-- The app includes a comprehensive fitness tracking system that monitors users' progress, calories burned, and achievements.
-- Users can set personalized fitness goals and track their improvement over time.
-
-## Technology Stack
-
-- Frontend: Unity for AR game development.
-- Backend: Node.js for handling server-side logic and real-time data synchronization.
-- Database: MongoDB for storing user profiles, fitness data, and game progress.
-- AR Integration: ARCore (Android) and ARKit (iOS) for augmented reality features.
-
-## Outcome
-
-FitQuest has transformed the fitness landscape by merging physical activity with immersive gaming experiences. Users not only enjoy staying active but also find motivation in the storyline and challenges, creating a unique and entertaining approach to maintaining a healthy lifestyle.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+This project reinforced the gap between simulation and reality — component tolerances, parasitic capacitance, and power supply noise all required empirical tuning on the bench, a critical skill for hardware engineering.

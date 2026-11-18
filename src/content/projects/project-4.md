@@ -1,61 +1,38 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
-description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+title: 'Humanoid Robot Full-Leg PCB Design'
+description: 'Designed and validated the full-leg actuation PCB for Purdue Humanoid Robotics Club using Altium Designer, with hardware testing via Unitree proprietary software.'
+publishDate: 'Jan 01 2025'
 seo:
   image:
     src: '../../assets/images/project-4.jpg'
+    alt: Humanoid robotics PCB project preview
 ---
 
-![Project preview](../../assets/images/project-4.jpg)
+![Humanoid robotics leg actuator](../../assets/images/project-4.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Overview
 
-**Project Overview:**
-NeuralPlaylist is a cutting-edge web application that redefines music discovery through the power of artificial intelligence. Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
+**Electrical Engineer — Humanoid Robotics Club, Purdue University**
+**January 2025 – Present**
 
-## Objectives
+As part of the Electrical Engineering team for Purdue's Humanoid Robotics Club, I took ownership of the PCB design for the full-leg actuation system — the hardware backbone enabling the robot to walk, balance, and move.
 
-1. Develop an intuitive and user-friendly web application that utilizes AI to curate personalized music playlists for users.
-2. Implement machine learning models that analyze user behavior, preferences, and physiological responses to create dynamic and context-aware music recommendations.
-3. Provide an immersive and interactive platform that enhances the music listening experience and introduces users to new genres and artists.
+## What I Did
 
-## Features
+### PCB Design (Altium Designer)
+- Led the full-leg actuation PCB layout and schematic design in **Altium Designer**.
+- Coordinated power distribution, motor driver routing, and signal integrity for high-current actuator channels.
+- Iterated on board revisions based on mechanical constraints and thermal performance.
 
-1. **Biometric Mood Analysis:**
+### Hardware Testing & Validation
+- Conducted hardware testing using **proprietary Unitree software** to characterize actuator response.
+- Implemented and validated sensor integration across the actuation chain.
+- Diagnosed signal and power issues through systematic bench testing.
 
-- NeuralPlaylist incorporates biometric data analysis to understand users' moods and emotional states.
-- The AI algorithms use facial recognition and heart rate data to curate playlists that match users' current emotional states.
+## Tools & Tech
 
-2. **Personalized Playlists:**
+`Altium Designer` · `PCB Layout` · `Motor Drivers` · `Unitree SDK` · `Sensor Integration` · `Hardware Debugging`
 
-- Users receive dynamic and highly personalized playlists based on their music history, preferences, and contextual factors.
-- NeuralPlaylist adapts to users' evolving tastes, introducing them to new genres and artists that align with their musical journey.
+## Context
 
-3. **Context-Aware Recommendations:**
-
-- The application takes into account contextual factors such as time of day, weather, and location to tailor music recommendations.
-- Users receive playlists suited for specific occasions, moods, and environments.
-
-4. **Collaborative Playlists:**
-
-- NeuralPlaylist encourages social interaction by allowing users to create and share collaborative playlists with friends.
-- Friends can contribute to the playlist, creating a shared musical experience that adapts to the collective preferences of the group.
-
-5. **Real-Time Feedback Integration:**
-
-- Users can provide real-time feedback on song selections, allowing the AI to continuously refine recommendations.
-- The system learns from user interactions to enhance the accuracy of future music suggestions.
-
-## Technology Stack
-
-- Frontend: Vue.js for a dynamic and responsive user interface.
-- Backend: Flask for handling server-side logic and API integration.
-- Database: MongoDB for efficient storage and retrieval of user and music data.
-- AI Integration: PyTorch for developing machine learning models for music recommendation and biometric analysis.
-
-## Outcome
-
-NeuralPlaylist has redefined the music listening experience by harnessing the power of AI to provide users with hyper-personalized and context-aware playlists. The application not only adapts to users' musical preferences but also introduces them to new and exciting musical journeys based on their emotions and surroundings.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Building a full humanoid leg demands extreme reliability — any PCB failure translates directly to a physical fall. This project pushed my skills in layout-for-reliability, high-current design, and iterative hardware validation.

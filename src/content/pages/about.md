@@ -1,43 +1,80 @@
 ---
 title: About
 seo:
-  title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  title: About Gurleen Batra
+  description: Computer Engineering student at Purdue specializing in robotics, embedded systems, and PCB design. ECE Merit Scholar, intern, researcher, and builder.
   image:
     src: '../../assets/images/about.jpg'
-    alt: A person sitting at a desk in front of a computer
+    alt: Gurleen Batra
 ---
 
-![Alt text for image](../../assets/images/about.jpg)
+![Gurleen Batra](../../assets/images/about.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Gurleen Batra — Computer Engineering @ Purdue
 
-## Ethan Donovan - Web Developer based in Estonia
+Hi! I'm **Gurleen Batra**, a Computer Engineering student at **Purdue University** (West Lafayette, IN) concentrating in AI/ML and Embedded Systems, graduating December 2027. I spend most of my time building things that move, think, or communicate — robotic hands, IoT firmware, custom PCBs, and autonomous systems.
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+I'm driven by one idea: the technologies being built right now will reshape how humans live and work, and I want to be in the room where that happens — not just as a user, but as an engineer who understands the hardware, firmware, and algorithms all the way down.
 
-## Skills and Expertise
+📍 West Lafayette, Indiana · ✉️ batrag@purdue.edu · 📞 +1 (765) 409-8128
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+---
 
-## Innovation and Problem-Solving
+## Education
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+**Purdue University** — West Lafayette, IN
+*B.S. Computer Engineering* | AI/ML & Embedded Systems Concentration
+August 2024 – December 2027 | **GPA: 3.48**
 
-## Global Perspective, Local Impact
+- ECE Merit Scholarship Recipient
+- Interns for Indiana Program
+- Relevant coursework: Microprocessors, Digital System Design, Python for Data Science, Advanced C, DSA, MATLAB, Signals & Systems
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+---
 
-## Continuous Learning
+## Technical Skills
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+**Programming:** Python, C, C++, MATLAB, MicroPython, JavaScript, HTML/CSS
 
-## Collaboration and Communication
+**Hardware:** ESP32, STM32, FPGA, Verilog, Sensors, Motors, Raspberry Pi
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+**Tools & Frameworks:** KiCAD, Altium Designer, LTSpice, TensorFlow, Fusion 360, MongoDB, ROS2
 
-## Get in Touch
+**Other:** Linux, Git, API integration, PLC programming, Docker
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+---
 
-_Let's build something amazing together!_
+## Work Experience
+
+### Embedded Systems Intern — Wavelogix, Inc.
+*West Lafayette, IN | May 2026 – July 2026*
+
+- Deployed production C-based GNSS firmware on Quectel 4G modules using a Finite State Machine for state management, cell connection, and power control
+- Optimized GPS performance via empirical delay tuning to maintain consistent **sub-2.0 HDOP**
+- Architected an automated **Hardware-in-the-Loop (HIL) test bench** (Python, Raspberry Pi, Nordic PPK2) for power profiling and firmware validation
+- Debugged serial communication errors and Docker device-mapping failures with third-party API limitations
+- Resolved telemetry bug in STM32 firmware initialization and wrote automated unit tests
+- Developed a full-stack **Python GUI desktop application** to automate internal manufacturing workflows
+
+---
+
+## Leadership
+
+**Director, Robotics and Intelligent Systems Expo (RISE)** — Aug 2024 – Present
+Organizing and securing sponsorships for one of the largest student-run robotics conferences in the US.
+
+**Founder & President, Stars Hollow Club of Purdue** — Feb 2025 – Present
+Built a community of 70+ members through hypercreative themed campus events.
+
+**Founder & President, The Dimensional Program (Women in STEM)** — Jul 2022 – Dec 2024
+Attained 2 major partnerships, reached 3,000+ girls for mentorship, led an international team of 24.
+
+**Outreach, Women in Engineering at Purdue** — Feb 2026 – Present
+
+**Committee Member, Society of Women Engineers** — Aug 2024 – May 2026
+
+**Executive Board Member, Purdue IEEE** — Jan 2025 – May 2025
+
+---
+
+_Always building. Always learning. Let's connect._

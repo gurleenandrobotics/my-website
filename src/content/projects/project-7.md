@@ -1,62 +1,39 @@
 ---
-title: CryptoTrader - Cryptocurrency Portfolio Manager
-description: CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios.
-publishDate: 'Jan 10 2024'
-isFeatured: true
+title: 'Adaptive Cruise Control — MATLAB Sensor Data Analysis'
+description: 'Developed MATLAB algorithms to preprocess, smooth, and analyze large experimental sensor datasets for adaptive cruise control (ACC) systems, reducing noise and identifying performance trends.'
+publishDate: 'Jan 01 2025'
 seo:
   image:
     src: '../../assets/images/project-7.jpg'
+    alt: Adaptive cruise control MATLAB project
 ---
 
-![Project preview](../../assets/images/project-7.jpg)
+![Adaptive cruise control sensor analysis](../../assets/images/project-7.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Overview
 
-**Project Overview:**
-CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios. By providing real-time market data, analytics, and portfolio tracking, the dashboard offers a seamless experience for users to monitor and enhance their cryptocurrency investments.
+A **MATLAB-based data analysis project** focused on preprocessing and interpreting large experimental sensor datasets to characterize and improve **Adaptive Cruise Control (ACC)** system performance.
 
-## Objectives
+## What I Built
 
-1. Develop a user-friendly and feature-rich dashboard that consolidates real-time data from various cryptocurrency exchanges.
-2. Provide tools for users to analyze market trends, track their portfolio performance, and make informed investment decisions.
-3. Create a secure and efficient platform that ensures users have a holistic view of their cryptocurrency holdings.
+### Data Preprocessing Pipeline
+- Ingested raw sensor time-series data from ACC test runs (radar, LiDAR, speed sensors).
+- Applied **smoothing filters** (moving average, Savitzky-Golay) to reduce high-frequency noise while preserving meaningful dynamics.
+- Handled missing data, sensor dropouts, and timestamp misalignment across multi-sensor logs.
 
-## Features
+### Performance Analysis
+- Developed MATLAB scripts to compute key ACC metrics: following distance error, response latency, and deceleration profiles.
+- Identified performance trends across different speed regimes and traffic scenarios.
+- Generated visualization plots (time-domain, frequency-domain) to surface insights for the engineering team.
 
-1. **Multi-Exchange Integration:**
+### Noise Reduction Methods
+- Benchmarked multiple filter designs for noise suppression vs. signal lag tradeoffs.
+- Documented findings to support algorithm tuning decisions.
 
-- CryptoTrader Dashboard aggregates data from multiple cryptocurrency exchanges, allowing users to view their entire portfolio in one centralized location.
-- Real-time updates provide the latest market prices, trading volumes, and order book data.
+## Tools & Skills
 
-2. **Portfolio Analytics:**
+`MATLAB` · `Signal Processing` · `Data Preprocessing` · `Time-Series Analysis` · `Control Systems` · `Sensor Fusion Concepts`
 
-- Users can analyze their portfolio's performance through interactive charts and graphs.
-- The dashboard offers insights into historical performance, asset allocation, and profit/loss over time.
+## Why It Matters
 
-3. **Risk Management Tools:**
-
-- Advanced risk management tools help users assess the volatility and potential risks associated with their cryptocurrency investments.
-- Users receive alerts for significant market fluctuations or changes in their portfolio value.
-
-4. **Automated Transaction Tracking:**
-
-- The dashboard automatically tracks and records users' cryptocurrency transactions, simplifying the process of updating and managing portfolios.
-- Users can categorize transactions, add notes, and maintain a comprehensive transaction history.
-
-5. **News and Market Insights:**
-
-- A dedicated section provides real-time news and market insights relevant to users' cryptocurrency holdings.
-- Users can stay informed about market trends, regulatory developments, and news affecting their investment decisions.
-
-## Technology Stack
-
-- Frontend: React for a responsive and interactive user interface.
-- Backend: Django for server-side logic and API integration.
-- Database: PostgreSQL for efficient storage and retrieval of portfolio and market data.
-- API Integration: Integration with cryptocurrency exchange APIs for real-time market data.
-
-## Outcome
-
-CryptoTrader Dashboard has become a trusted companion for cryptocurrency investors, offering a consolidated and user-friendly platform for managing their portfolios. The robust analytics, real-time market data, and risk management tools empower users to make informed decisions and navigate the dynamic world of cryptocurrency with confidence.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+ACC systems sit at the intersection of control theory and real-world sensor noise — this project built intuition for how messy data translates into safety-critical decisions in autonomous vehicles.

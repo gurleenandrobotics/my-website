@@ -1,7 +1,7 @@
 ---
 // RoboCursor component – client‑only, persists across Astro page transitions
 ---
-<div id="robo-hand" aria-hidden="true" data-state="open" class="pointer-events-none fixed top-0 left-0 w-12 h-12 z-50"></div>
+<div id="robo-hand" aria-hidden="true" data-state="open" class="pointer-events-none fixed top-0 left-0 w-16 h-16 z-50"></div>
 
 <script client:load>
   // Bail out on non‑fine pointer devices
@@ -30,13 +30,19 @@
 
   // Simple hand SVG – groups for fingers (placeholder shapes)
   hand.innerHTML = `
-    <svg viewBox="0 0 100 100" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
-      <g id="palm" fill="#555"><circle cx="50" cy="60" r="30"/></g>
-      <g id="thumb" fill="#555"><rect x="35" y="30" width="10" height="20"/></g>
-      <g id="index" fill="#555"><rect x="45" y="20" width="10" height="30"/></g>
-      <g id="middle" fill="#555"><rect x="55" y="20" width="10" height="30"/></g>
-      <g id="ring" fill="#555"><rect x="65" y="30" width="10" height="20"/></g>
-      <g id="pinky" fill="#555"><rect x="75" y="40" width="8" height="10"/></g>
+    <svg viewBox="0 0 120 140" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <!-- Palm -->
+      <rect id="palm" x="30" y="50" width="60" height="70" rx="8" fill="#555"/>
+      <!-- Thumb -->
+      <rect id="thumb" x="20" y="70" width="20" height="15" rx="3" fill="#555"/>
+      <!-- Index finger -->
+      <rect id="index" x="45" y="30" width="12" height="35" rx="2" fill="#555"/>
+      <!-- Middle finger -->
+      <rect id="middle" x="60" y="30" width="12" height="40" rx="2" fill="#555"/>
+      <!-- Ring finger -->
+      <rect id="ring" x="75" y="40" width="10" height="30" rx="2" fill="#555"/>
+      <!-- Pinky finger -->
+      <rect id="pinky" x="90" y="55" width="8" height="20" rx="2" fill="#555"/>
     </svg>
   `;
 
@@ -115,6 +121,9 @@
 </script>
 
 <style>
+  /* Debug: visible background */
+  #robo-hand { background: rgba(255,0,0,0.1); }
+
   html.robo-cursor-on { cursor: none; }
   #robo-hand[data-state="open"] #index { transform: rotate(0deg); }
   #robo-hand[data-state="point"] #index { transform: rotate(-30deg); }

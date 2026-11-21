@@ -2,6 +2,13 @@ import { type CollectionEntry } from 'astro:content';
 import { slugify } from './common-utils';
 
 export function sortItemsByDateDesc(itemA: CollectionEntry<'blog' | 'projects' | 'ghost'>, itemB: CollectionEntry<'blog' | 'projects' | 'ghost'>) {
+    const aOrder = (itemA.data as any).order;
+    const bOrder = (itemB.data as any).order;
+    if (typeof aOrder === 'number' && typeof bOrder === 'number') {
+        return aOrder - bOrder;
+    }
+    if (typeof aOrder === 'number') return -1;
+    if (typeof bOrder === 'number') return 1;
     return new Date(itemB.data.publishDate).getTime() - new Date(itemA.data.publishDate).getTime();
 }
 

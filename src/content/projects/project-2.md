@@ -2,6 +2,7 @@
 title: 'Embedded Systems Internship — Wavelogix, Inc.'
 description: 'Production C firmware on Quectel 4G/GNSS modules, automated HIL test bench (Python + RPi), and a full-stack desktop GUI for internal manufacturing workflows.'
 publishDate: 'May 01 2026'
+order: 1
 isFeatured: true
 seo:
   image:

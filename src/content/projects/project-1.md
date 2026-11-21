@@ -2,6 +2,7 @@
 title: 'Piano-Playing Robotic Hand'
 description: 'ESP32/STM32-driven autonomous robotic hand with custom PCB, PID-controlled finger actuation, and BLE wireless control — built as Electronics Lead of Purdue Autonomous Robotics Club.'
 publishDate: 'Aug 01 2024'
+order: 2
 isFeatured: true
 seo:
   image:

@@ -45,4 +45,28 @@ const currentYear = new Date().getFullYear();
             <a class="hover:underline hover:underline-offset-2" href="/">{siteConfig.title}</a>. All rights reserved.
         </p>
     </div>
+  <button id="cursor-toggle" class="text-sm hover:underline" aria-label="Toggle robot cursor">Toggle Robot Cursor</button>
+  <script client:load>
+    const btn = document.getElementById('cursor-toggle');
+    const storageKey = 'roboCursorEnabled';
+    function updateUI(){
+      const enabled = localStorage.getItem(storageKey) === 'true';
+      btn.textContent = enabled ? 'Disable Robot Cursor' : 'Enable Robot Cursor';
+      if(enabled){
+        document.documentElement.classList.add('robo-cursor-on');
+      } else {
+        document.documentElement.classList.remove('robo-cursor-on');
+      }
+    }
+    btn.addEventListener('click',()=>{
+      const curr = localStorage.getItem(storageKey) === 'true';
+      localStorage.setItem(storageKey, (!curr).toString());
+      updateUI();
+    });
+    // initialize
+    if(localStorage.getItem(storageKey)===null){
+      localStorage.setItem(storageKey,'true');
+    }
+    updateUI();
+  </script>
 </footer>
